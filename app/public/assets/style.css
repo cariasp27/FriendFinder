@@ -1,0 +1,21 @@
+a {
+    color: rgb(87, 62, 30);
+}
+a:hover {
+    color: rgb(121, 88, 44);
+}
+a:visited{
+    color: rgb(65, 46, 21);
+}
+#bg {
+    background-color: rgb(21, 21, 21);
+    color: rgb(87, 62, 30);
+}
+body {
+    background: url(../images/fancy-cushion.png) center center fixed; 
+}
+.h1 { text-align: center}
+.jumbotron {
+    background-color: rgb(21, 21, 21);
+    color: rgb(87, 62, 30);
+}

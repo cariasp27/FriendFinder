@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Find a Friend</title>
+<!-- Links to Bootstrap CSS and JS, JQuery, and Font Awesome  -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <style>
+a {
+    color: rgb(87, 62, 30);
+}
+a:hover {
+    color: rgb(121, 88, 44);
+}
+a:visited{
+    color: rgb(65, 46, 21);
+}
+#bg {
+    background-color: rgb(21, 21, 21);
+    color: rgb(87, 62, 30);
+}
+body {
+    background: url(../images/fancy-cushion.png) center center fixed; 
+}
+.h1 { text-align: center}
+.jumbotron {
+    background-color: rgb(21, 21, 21);
+    color: rgb(87, 62, 30);
+}
+
+  </style>
+</head>
+
+<body>
+
+  <div class="container" id="bg">
+
+    <div class="jumbotron">
+      <center><h1>Find a Friend</h1></center>
+      <hr>
+      <h2>Are you lonely? Wish you knew more people like you? Well have we got a test for you! Take the following quick survey and get matched up with someone who answered similar to you!</h2>
+      <br>
+
+      <div>
+        <center><a href="/survey"><button type="button" class="btn btn-lg btn-primary"><h4><span class="glyphicon glyphicon-list-alt"></span> Go to Survey</h4></button></a></center>
+      </div>
+
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <center><p><a href="/api/friends">API Friends List</a></p></center>
+      </div>
+    </footer>
+
+  </div>
+
+
+</body>
+
+</html>
